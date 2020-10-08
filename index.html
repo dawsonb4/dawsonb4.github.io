@@ -2,22 +2,87 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Project: Blog</title>
+        <title>Project: Event invite</title>
+        <style>
+            body {
+                background-image: repeating-linear-gradient(red, orange, yellow, red);
+            }
+        
+            #partyname {
+                color: rgb(158, 12, 12);
+                font-family: fantasy, sans-serif;
+            }
+            
+            h1 {
+                text-align: center;
+            }
+            
+            #babyback {
+                width: 200px;
+                position: absolute;
+                top: px;
+            }
+            
+            #menu {
+                position: absolute;
+                left: 230px;
+                top:210px;
+                border: ridge 5px black;
+                padding: 5px;
+            }
+            
+            #guestlist {
+                position: relative;
+                top: 200px;
+            }
+            
+            #mike {
+                color: red;
+                text-decoration: line-through;
+            }
+            
+            #rsvp {
+                position: absolute;
+                top: 650px;
+            }
+        </style>
     </head>
     <body>
         
-        <h1>Dawsons's blog</h1>
-
-        <h3>Contents</h3>
+        <h1>You have been invited to <span id="partyname">Jim's BBQ Party!</span></h1>
+        
+        <h2>Great food, fun party games, and of course, Karaoke! Please meet at my house at 7pm!</h2>
+        
+        <div id="menu">
+        <h3><strong>The Menu:</strong></h3>
         <ul>
-            <li>First post!</li>
+            <li>Hamburger</li>
+            <li>Cheeseburger</li>
+            <li>Hot Dog</li>
+            <li>Beer</li>
+            <li>Baby-back Ribs</li>
         </ul>
+        </div>
         
-        <h2>First post</h2>
-        <h6>October 7th 2020</h6>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Baby_back_ribs_-_hickory_smoked.jpg/330px-Baby_back_ribs_-_hickory_smoked.jpg" id="babyback">
         
-        <p>Something excited happened.</p>
+        <div id="guestlist">
+        <h3>Guest List:</h3>
+        <ul>
+            <li>Angela</li>
+            <li>Stanley</li>
+            <li>Oscar</li>
+            <li>Maredeth</li>
+            <li>Phyllis</li>
+            <li>Kevin</li>
+            <li>Creed</li>
+            <li>Dwight</li>
+            <li id="mike">Michael</li>
+        </ul>
+        </div>
         
+        <p></p>
         
+        <a id="rsvp" href="https://www.youtube.com/watch?v=HUJV752DxXk">Click to RSVP</a>
     </body>
 </html>
